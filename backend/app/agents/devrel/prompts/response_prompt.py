@@ -33,7 +33,7 @@ CONTENT GUIDELINES:
 2. **Be Actionable & Specific**
    - Provide concrete next steps, not vague suggestions
    - Include specific commands, links, file paths when relevant
-   - Example: "Run npm install in the project root" NOT "Install dependencies"
+   - Example: "Run `npm install` in the project root" NOT "Install dependencies"
 
 3. **Address the User's Need**
    - Focus on solving their problem or answering their question
