@@ -14,7 +14,7 @@ from app.core.orchestration.queue_manager import AsyncQueueManager
 from app.database.weaviate.client import get_weaviate_client
 from integrations.discord.bot import DiscordBot
 from discord.ext import commands
-import discord
+
 # DevRel commands are now loaded dynamically (commented out below)
 # from integrations.discord.cogs import DevRelCommands
 
@@ -50,7 +50,7 @@ class DevRAIApplication:
             try:
                 await self.discord_bot.load_extension("integrations.discord.cogs")
             except (ImportError, commands.ExtensionError) as e:
-                logger.exception("Failed to load Discord cog extension: %s", e)
+                logger.exception("Failed to load Discord cog extension")
 
             # Start the bot as a background task.
             asyncio.create_task(
