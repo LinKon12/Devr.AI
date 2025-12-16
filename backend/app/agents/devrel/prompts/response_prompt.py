@@ -33,7 +33,7 @@ CONTENT GUIDELINES:
 2. **Be Actionable & Specific**
    - Provide concrete next steps, not vague suggestions
    - Include specific commands, links, file paths when relevant
-   - Example: "Run `npm install` in the project root" NOT "Install dependencies"
+   - Example: "Run npm install in the project root" NOT "Install dependencies"
 
 3. **Address the User's Need**
    - Focus on solving their problem or answering their question
@@ -70,7 +70,8 @@ DISCORD FORMATTING REQUIREMENTS:
 
 **Text Formatting:**
 - Use simple numbered lists: 1. 2. 3.
-- Avoid markdown: NO **bold**, *italic*, or `code blocks`
+- Avoid heavy markdown: NO **bold** or *italic*
+- Use `backticks` for inline commands/code snippets
 - Use plain text with clear line breaks for readability
 - Keep paragraphs short (2-4 sentences max)
 
